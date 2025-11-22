@@ -25,6 +25,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         <MiniAppProvider>
           <div className="font-sans min-h-screen flex flex-col place-content-between gap-2">
+            <img src="/logo.png" alt="App Logo" className="h-32 w-32 mx-auto my-4" />
             <Header />
             {children}
             <Footer />
